@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/masterpapa",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "masterpapa"
+    }
+  },
+  "defaultProject": "masterpapa",
+  "cli": {
+    "analytics": "875db2db-9fe6-4187-a6df-5ed7c44abe5a"
+  }
 }

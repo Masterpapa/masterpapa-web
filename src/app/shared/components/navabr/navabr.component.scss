@@ -1,0 +1,18 @@
+nav {
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 1px !important;
+    z-index: 99;
+}
+
+.navbar-nav .nav-link{
+    font-family: robotoRegular;
+}
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.8rem;
+    }
+}

@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+
+@font-face {
+    font-family: brandFont;
+    src: url(./assets/font/Amita-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotoBold;
+    src: url(./assets/font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: robotoRegular;
+    src: url(./assets/font/Roboto-Regular.ttf);
+}
+
+
+
+.masterpapa {
+    font-family: brandFont;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nm2{
+    color: #ff0000;
+}
